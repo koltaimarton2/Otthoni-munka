@@ -1,0 +1,36 @@
+h1 {
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif ;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+}
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.img500 {
+    width: 500px;
+}
+.box {
+    width: 550px;
+    background-color: white;
+    height: 10px;
+}
