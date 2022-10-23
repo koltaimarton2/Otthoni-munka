@@ -1,51 +1,71 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #121212;
+    color: #fff;
+    margin-left: 25px;
+}
 h1 {
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
     text-align: center;
     font-size: 40px;
 }
-.leiras {
-    font-style: italic;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    text-align: center;
-    font-size: 20px;
-}
 h2 {
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
     font-size: 30px;
-}
-p a {
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    text-decoration: none;
-}
-.box {
-    height: 5px;
-    border: 5px solid #353935 ;
-    background-color: #1b1212;
-    padding: 5px 0px;
-    margin: 10px 1200px 10px 0px;
-}
-table, td , th  {
-    border: 1px solid rgb(2, 14, 14);
-    border-collapse: collapse;
-    color: white;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
 }
 h4 {
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
     font-size: 25px;
 }
+.leiras {
+    font-style: italic;
+    text-align: center;
+    font-size: 20px;
+}
+a {
+    color: #72e7f0;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 20px;
+}
+a:hover {
+    color: #3a888d;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 20px;
+}
+hr {
+    background-color: #fff;
+    height: 7px;
+    /* margin-right: 80%; */
+    width: 20%;
+    margin-left: 0px;
+}
+table, td , th  {
+    border: 5px solid rgb(4, 12, 27);
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 20px;
+}
+table {
+    width: 25%;
+    height: 200px
+}
 td a {
-    font-family:Arial, Helvetica, sans-serif;
     font-size: 20px;
     text-decoration: none;
+}
+h3 a {
+    text-decoration: underline;
+    font-size: 20px;
+}
+h3 a:hover {
+    text-decoration: underline;
+}
+.crop {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    border: 7px solid#fff;
 }
