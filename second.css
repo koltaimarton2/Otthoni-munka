@@ -53,9 +53,6 @@ h3 a {
 h3 a:hover{
     text-decoration: underline;
 }
-.img500 {
-    width: 500px;
-}
 .row {
     clear: both;
     display: table;
@@ -64,6 +61,10 @@ h3 a:hover{
 .row .img500 {
     width: 500px;
     float: left;
+    transition: transform .2s;
+}
+.row .img500:hover {
+    transform: scale(1.05)
 }
 
 .row p {
