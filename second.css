@@ -13,6 +13,7 @@ h1 {
 h2 {
     font-size: 30px;
     font-weight: bold;
+    clear: both;
 }
 h3 {
     font-weight: bold;
@@ -30,8 +31,10 @@ hr {
     background-color: #fff;
     height: 7px;
     /* margin-right: 85%; */
-    width: 500px;
+    width: 38%;
     margin-left: 0px;
+    clear: both;
+    margin-top: 200px;
 }
 p {
     font-size: 20px;
@@ -48,27 +51,27 @@ h3 a {
 h3 a:hover{
     text-decoration: underline;
 }
-.row {
-    clear: both;
-    display: table;
-}
 
-.row .img500 {
-    width: 500px;
+div .img500 {
     float: left;
     transition: transform .2s;
+    border-radius: 25px;
+    border: 2px solid #ffffff;
+    padding: 0px;
+    width: 200px;
+    height: 150px;
 }
-.row .img500:hover {
+div .img500:hover {
     transform: scale(1.05)
 }
 
-.row p {
+div p {
     font-size: 20px;
     /* margin-right: 925px; */
     line-height:1.5;
     width: 500px;
-    float: left;
     padding-left: 40px;
+    float: left;
 }
 header {
     margin-bottom: 70px;
