@@ -2,6 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-image: url(images/background.png);
     background-size: 100%;
+    background-repeat: repeat-y;
     color: #fff;
     margin-left: 25px;
 }
@@ -30,7 +31,6 @@ a {
 hr {
     background-color: #fff;
     height: 7px;
-    /* margin-right: 85%; */
     width: 38%;
     margin-left: 0px;
     clear: both;
@@ -38,10 +38,10 @@ hr {
 }
 p {
     font-size: 20px;
-    /* margin-right: 925px; */
     line-height:1.5;
     width: 500px;
     float: right;
+    /* text-align: justify; */
     
 }
 h3 a {
@@ -67,47 +67,59 @@ div .img500:hover {
 
 div p {
     font-size: 20px;
-    /* margin-right: 925px; */
     line-height:1.5;
     width: 500px;
     padding-left: 40px;
     float: left;
 }
-header {
-    margin-bottom: 70px;
+a button {
+    font-size: 20px;
+    color: #72e7f0;
 }
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    position: fixed;
-    top: 0;
-    width: 100%;
+.nav {
+    width: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+    margin: auto;
+    position:fixed ;
+    top: 40%;
+    margin-left: 65%;
 }
-  
-li {
-    float: left;
+button {
+    width: 150px;
+    padding: 12px;
+    border-radius: 20px;
+    border: 3px solid #284cff;
+    cursor: pointer;
+    background-color: transparent;
+    background-image: url(images/liquidfill.png);
+    background-repeat: repeat-x;
+    background-position: 0 -100%;
+    transition: 1.5s;
 }
-li {
-    float: left;
-    border-right: 1px solid #bbb;
+button:hover {
+    background-position: center;
 }
-li:last-child  {
-    border-right: none;
-}  
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-} 
-li a:hover {
-    background-color: #111;
+a:nth-child(1) {
+    filter: hue-rotate(00deg);
 }
-.active {
-    background-color: #04aa6d;
+a:nth-child(2) {
+    filter: hue-rotate(40deg);
 }
+a:nth-child(3) {
+    filter: hue-rotate(80deg);
+}
+a:nth-child(4) {
+    filter: hue-rotate(120deg);
+}
+a:nth-child(5) {
+    filter: hue-rotate(160deg);
+}
+a:nth-child(6) {
+    filter: hue-rotate(200deg);
+}
+
 

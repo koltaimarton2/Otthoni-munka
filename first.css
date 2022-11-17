@@ -69,37 +69,57 @@ h3 a:hover {
 .crop:hover {
     transform: scale(1.1);
 }
-header {
-    margin-bottom: 70px;
+.container {
+    width: 500px;
+    height: 281px;
+    margin: auto;
+    border: 3px solid white;
+    border-radius: 20px;
+    padding: 10px;
 }
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    position: fixed;
-    top: 0;
-    width: 100%;
+a button {
+    font-size: 20px;
+    color: #72e7f0;
 }
-  
-li {
-    float: left;
-    border-right: 1px solid #bbb;
+.nav {
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    margin: auto;
 }
-li:last-child  {
-    border-right: none;
+button {
+    width: 150px;
+    padding: 12px;
+    border-radius: 20px;
+    border: 3px solid #284cff;
+    cursor: pointer;
+    background-color: transparent;
+    background-image: url(images/liquidfill.png);
+    background-repeat: repeat-x;
+    background-position: 0 -100%;
+    transition: 1.5s;
 }
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-} 
-li a:hover {
-    background-color: #111;
+button:hover {
+    background-position: center;
 }
-.active {
-    background-color: #04aa6d;
+a:nth-child(1) {
+    filter: hue-rotate(00deg);
+}
+a:nth-child(2) {
+    filter: hue-rotate(40deg);
+}
+a:nth-child(3) {
+    filter: hue-rotate(80deg);
+}
+a:nth-child(4) {
+    filter: hue-rotate(120deg);
+}
+a:nth-child(5) {
+    filter: hue-rotate(160deg);
+}
+a:nth-child(6) {
+    filter: hue-rotate(200deg);
 }
