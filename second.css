@@ -1,16 +1,28 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(images/background.png);
+    background-image: url(images/background3.webp);
     background-size: 100%;
-    background-repeat: repeat-y;
     color: #fff;
     margin-left: 25px;
 }
 h1 {
-    font-weight: bold;
     text-align: center;
-    font-size: 40px;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    margin-top: 3%;
 }
+h1:after {
+    width: 100px;
+    height: 1px;
+    display: block;
+    content: "";
+    position: relative;
+    margin-top: 25px;
+    left: 50%;
+    margin-left: -50px;
+    background-color: #ffffff;
+}
+  
 h2 {
     font-size: 30px;
     font-weight: bold;
@@ -35,13 +47,13 @@ hr {
     margin-left: 0px;
     clear: both;
     margin-top: 200px;
+    border-radius: 20px;
 }
 p {
     font-size: 20px;
     line-height:1.5;
     width: 500px;
     float: right;
-    /* text-align: justify; */
     
 }
 h3 a {
@@ -56,7 +68,7 @@ div .img500 {
     float: left;
     transition: transform .2s;
     border-radius: 25px;
-    border: 2px solid #ffffff;
+    border: 3px solid #ffffff;
     padding: 0px;
     width: 200px;
     height: 150px;
@@ -77,7 +89,7 @@ a button {
     color: #72e7f0;
 }
 .nav {
-    width: 350px;
+    width: 375px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -86,7 +98,12 @@ a button {
     margin: auto;
     position:fixed ;
     top: 40%;
-    margin-left: 65%;
+    margin-left: 60%;
+    border: 5px solid white;
+    border-radius: 20px ;
+    padding: 20px;
+    background-color: #222;
+    box-shadow: 0 0 40px;
 }
 button {
     width: 150px;
@@ -94,7 +111,7 @@ button {
     border-radius: 20px;
     border: 3px solid #284cff;
     cursor: pointer;
-    background-color: transparent;
+    background-color: #111;
     background-image: url(images/liquidfill.png);
     background-repeat: repeat-x;
     background-position: 0 -100%;
@@ -120,6 +137,9 @@ a:nth-child(5) {
 }
 a:nth-child(6) {
     filter: hue-rotate(200deg);
+}
+.active {
+    background-position: center;
 }
 
 
